@@ -29,7 +29,7 @@ bool isPalindrome(node* &head)
         return true;
     }
     int l=length(head);
-    int mid=l%2;
+    int mid=l/2;
     if(l==2)
     {
         if(head->data==head->next->data)
@@ -39,7 +39,7 @@ bool isPalindrome(node* &head)
         return false;
     }
     node* st=head;
-    int j=1;
+    int j=0;
     node* prev=NULL;
     node* curr=head;
     node* nextptr;
@@ -106,8 +106,8 @@ void display(node* head)
 int main()
 {
     node* head=NULL;
-    int arr[]={1,1};
-    for(int i=0;i<2;i++)
+    int arr[]={1,2,2,1};
+    for(int i=0;i<4;i++)
     {
         insertAtTail(head,arr[i]);
     }
