@@ -1,0 +1,1 @@
+{"name":"Local: repeated-elements-string","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\repeated-elements-string.cpp","tests":[{"id":1622296638203,"input":"geeks for geeks","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\repeated-elements-string.cpp","group":"local","local":true}

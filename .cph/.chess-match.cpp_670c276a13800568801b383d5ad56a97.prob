@@ -1,0 +1,1 @@
+{"name":"Local: chess-match","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\chess-match.cpp","tests":[{"id":1624790586640,"input":"3\n10 0 2\n11 2 1\n12 192 192","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\chess-match.cpp","group":"local","local":true}

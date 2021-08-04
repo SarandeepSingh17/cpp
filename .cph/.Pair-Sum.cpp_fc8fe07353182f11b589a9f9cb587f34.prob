@@ -1,0 +1,1 @@
+{"name":"Local: Pair-Sum","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\Pair-Sum.cpp","tests":[{"id":1621497948546,"input":"8\n2 4 7 11 14 16 20 21\n31","output":"3 6\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\Pair-Sum.cpp","group":"local","local":true}

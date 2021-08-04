@@ -1,0 +1,1 @@
+{"name":"Local: k-subarrays","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\k-subarrays.cpp","tests":[{"id":1622482126692,"input":"2\n5 2\n1 -2 -1 3 1\n5 2\n-1 2 11 -23 12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\k-subarrays.cpp","group":"local","local":true}

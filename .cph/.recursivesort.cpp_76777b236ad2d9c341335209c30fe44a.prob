@@ -1,0 +1,1 @@
+{"name":"Local: recursivesort","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\recursivesort.cpp","tests":[{"id":1626001053703,"input":"7\n1 2 3 4 5 7 6","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\recursivesort.cpp","group":"local","local":true}

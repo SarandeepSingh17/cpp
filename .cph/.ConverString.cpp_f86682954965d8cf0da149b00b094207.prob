@@ -1,0 +1,1 @@
+{"name":"Local: ConverString","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\ConverString.cpp","tests":[{"id":1625578945003,"input":"1\ni love programming","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\ConverString.cpp","group":"local","local":true}

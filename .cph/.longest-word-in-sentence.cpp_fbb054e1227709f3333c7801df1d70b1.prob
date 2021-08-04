@@ -1,0 +1,1 @@
+{"name":"Local: longest-word-in-sentence","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\longest-word-in-sentence.cpp","tests":[{"id":1621669959749,"input":"10\ndo or die","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\longest-word-in-sentence.cpp","group":"local","local":true}

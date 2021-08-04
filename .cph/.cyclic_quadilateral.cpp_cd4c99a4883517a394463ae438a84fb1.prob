@@ -1,0 +1,1 @@
+{"name":"Local: cyclic_quadilateral","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\cyclic_quadilateral.cpp","tests":[{"id":1624790045639,"input":"3\n10 20 30 300\n10 20 170 160\n179 1 179 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\cyclic_quadilateral.cpp","group":"local","local":true}

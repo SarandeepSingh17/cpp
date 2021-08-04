@@ -1,0 +1,1 @@
+{"name":"Local: XOR-Equality","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\XOR-Equality.cpp","tests":[{"id":1620554518672,"input":"2\n1\n2","output":"1\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\XOR-Equality.cpp","group":"local","local":true}

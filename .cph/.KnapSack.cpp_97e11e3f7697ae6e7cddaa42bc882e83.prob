@@ -1,0 +1,1 @@
+{"name":"Local: KnapSack","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\KnapSack.cpp","tests":[{"id":1627284406558,"input":"3\n50\n100\n50\n150\n10\n20\n30","output":"250"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\KnapSack.cpp","group":"local","local":true}

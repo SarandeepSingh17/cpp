@@ -1,0 +1,1 @@
+{"name":"Local: Chef-hiest","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\Chef-hiest.cpp","tests":[{"id":1622813266549,"input":"3\n2 1 1 1\n3 2 1 1\n5 2 1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\Chef-hiest.cpp","group":"local","local":true}

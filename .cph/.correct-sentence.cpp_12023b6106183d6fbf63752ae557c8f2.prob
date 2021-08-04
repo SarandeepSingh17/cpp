@@ -1,0 +1,1 @@
+{"name":"Local: correct-sentence","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\correct-sentence.cpp","tests":[{"id":1622374902004,"input":"3\n1 1 1\n1\n1 1 2\n1 1\n5 5 10\n2 5 2 5 2 4 10 10 10 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\correct-sentence.cpp","group":"local","local":true}
