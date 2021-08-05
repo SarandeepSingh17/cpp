@@ -1,0 +1,1 @@
+{"name":"Local: RemoveOccurenceString","url":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\RemoveOccurenceString.cpp","tests":[{"id":1628095533703,"input":"geksforgeeks\ne","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sandy\\Documents\\Vs Code\\c++\\RemoveOccurenceString.cpp","group":"local","local":true}

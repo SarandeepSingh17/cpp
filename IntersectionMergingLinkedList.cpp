@@ -185,10 +185,10 @@ int main()
     insertAtTail(head2,6);
     display(head1);
     display(head2);
-    // intersect(head1,head2,3);
-    // cout<<intersection(head1,head2);
-    node* newhead=mergerecursive(head1,head2);
-    display(newhead);
+    intersect(head1,head2,3);
+    cout<<intersection(head1,head2)<<endl;
+    // node* newhead=mergerecursive(head1,head2);
+    // display(newhead);
 
     return 0;
 }
