@@ -52,11 +52,12 @@ bool detectCycle(node* &head)
     {
         slow=slow->next;
         fast=fast->next->next;
-    }
-    if(fast==slow)
+        if(fast==slow)
     {
         return true;
     }
+    }
+    
     return false;
 }
 void removeCycle(node* &head)
@@ -97,8 +98,13 @@ int main()
     insertAtTail(head,4);
     display(head);
     makeCycle(head,3);
-    detectCycle(head);
+    if(detectCycle(head))
+    {
+        cout<<"TRUE"<<endl;
+    }
+    else
+    cout<<"FALSE"<<endl;
     removeCycle(head);
-    display(head);
+    detectCycle(head);
     return 0;
 }

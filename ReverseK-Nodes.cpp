@@ -57,7 +57,14 @@ node* reverseK(node* &head, int k ){
     }
     if(nextptr!=NULL)
     {
-    head->next = reverseK(nextptr,k);
+        if(length(nextptr)>=k)
+        {
+            head->next = reverseK(nextptr,k);
+        }
+        else
+    {
+        head->next=nextptr;
+    }
     }
     return prev;
 }
