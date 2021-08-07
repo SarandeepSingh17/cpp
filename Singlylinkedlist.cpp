@@ -11,6 +11,44 @@ class node
         next=NULL;
     }
 };
+void swap(node *a, node *b)
+{
+    int temp = a->data;
+    a->data = b->data;
+    b->data = temp;
+}
+int length(node* head)
+{
+    int l=0;
+    node* temp=head;
+    while(temp!=NULL)
+    {
+        l++;
+        temp=temp->next;
+    }
+    return l;
+}
+node* bubblesort(node* &head)
+{
+    int n=length(head);
+    
+    for(int i=0;i<n-1;i++)
+    {
+        node* temp=head;
+        for(int j=0;j<n-1-i;j++)
+        {
+            node* p1=temp;
+            node* p2=p1->next;
+            if(p1->data > p2->data)
+            {
+                swap(p1,p2);
+            }
+        
+            temp=temp->next;
+        }
+    }
+    return head;
+}
 
 //Reversed Linked List using Iteration
 node* reverse(node* &head)
@@ -127,5 +165,7 @@ int main()
     display(head);
     node* newhead =ReverseRecursive(head);
     display(newhead);
+    node* head1 =bubblesort(head);
+    display(head1);
     return 0;
 }
