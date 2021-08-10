@@ -40,7 +40,7 @@ string infixtopostfix(string s)
                 res+=st.top();
                 st.pop();
             }
-            if(!st.empty())
+            if(!st.empty())                                         //To remove the opening bracket 
             {
                 st.pop();
             }
