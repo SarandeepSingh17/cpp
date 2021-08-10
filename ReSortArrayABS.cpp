@@ -17,7 +17,7 @@ int main()
     int j=n-1;
     while(i!=j)
     {
-        if(abs(arr[i])>=abs(arr[i+1]))
+        if(abs(arr[i])>abs(arr[i+1]))
         {
             if(abs(arr[i])>abs(arr[j]))
             {

@@ -47,11 +47,23 @@ int prefixevaluation(string s)
 int postfixevaluation(string s)
 {
     stack<int> st;
+    
     for(int i=0;i<s.length();i++)
     {
-        if(s[i]>='0' && s[i]<='9')
-        {
-            st.push(s[i]-'0');
+        if (isspace(s[i])) {
+            continue;
+        }
+
+        // If the component of the string is an integer.
+        else if (isdigit(s[i])) {
+            int num = 0;
+            
+            while (isdigit(s[i])) {
+                num = num * 10 + (s[i] - '0');
+                i++;
+            }
+            i--;
+            st.push(num);
         }
         else{
             int op2=st.top();
@@ -86,6 +98,6 @@ int postfixevaluation(string s)
 }
 int main()
 {
-    cout<<postfixevaluation("46+2/5*7+");
+    cout<<postfixevaluation("100 200 + 2 / 5 * 7 +");
     return 0;
 }
