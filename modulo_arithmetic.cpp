@@ -19,6 +19,6 @@ int main()
 {
     ll a,b;
     cin>>a>>b;
-    cout<<power(a,b,1000000007)<<endl;
+    cout<<power(a,b,10000001)<<endl;
     return 0;
 }

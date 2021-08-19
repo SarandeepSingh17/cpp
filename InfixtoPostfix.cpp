@@ -21,7 +21,7 @@ int prec(char c)
 }
 string infixtopostfix(string s)
 {
-    stack<char> st;
+    stack<char> st;                                                             //(a-b/c)*(a/k-l)
     string res;
     for(int i=0;i<s.length();i++)
     {
@@ -62,8 +62,54 @@ string infixtopostfix(string s)
     }
     return res;
 }
+string infixtoprefix(string s)
+{
+    stack<char> st;
+    string res;
+    for(int i=s.length();i>=0;i--)
+    {
+        if((s[i]>='a' && s[i]<='z') || (s[i]>='A' && s[i]<='Z'))
+        {
+            res+=s[i];
+        }
+        else if(s[i]==')')
+        {
+            st.push(s[i]);
+        }
+        else if(s[i]=='(')
+        {
+            while(!st.empty() && st.top()!=')')
+            {
+                res+=st.top();
+                st.pop();
+            }
+            if(!st.empty())                                         //To remove the opening bracket 
+            {
+                st.pop();         //pop opening bracket
+            }
+        }
+        else
+        {
+            while(!st.empty() && prec(st.top())>=prec(s[i]))
+            {
+                res+=st.top();
+                st.pop();
+            }
+            st.push(s[i]);
+        }
+    }
+    while (!st.empty())
+    {
+        /* code */
+        res+=st.top();
+        st.pop();
+    }
+    reverse(res.begin(),res.end());
+    return res; 
+}
 int main()
 {
-    cout<<infixtopostfix("(a-b/c)*(a/k-l)");
+    cout<<infixtopostfix("(a-b/c)*(a/k-l)")<<endl;
+    cout<<infixtoprefix("(a-b/c)*(a/k-l)")<<endl;
     return 0;
 }

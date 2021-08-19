@@ -12,8 +12,10 @@ void  rotate(vector <vector <int>>& arr)
            a[i][j]=0;                                           //Initializing to 0
         }
     }
- int j=0;
- int i=0;
+ 
+ 
+    int j=0;
+    int i=0;
  for(int col=n-1;col>=0;col--)
 {
     for(int row=0;row<n;row++)
@@ -41,11 +43,12 @@ int main()
     {
     int n;
     cin>>n;
-    vector<vector <int>> arr(n);
-    for(int i=0;i<n;i++)
+    int k;
+    cin>>k;
+    vector<vector <int>> arr(n, vector<int>(n));
+    for(int i=0;i<arr.size();i++)
     {
-        arr[i].resize(n);
-        for(int j=0;j<n;j++)
+        for(int j=0;j<arr[i].size();j++)
         {
             cin>>arr[i][j];
         }
