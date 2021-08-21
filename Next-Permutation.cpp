@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void Permute(int n, vector<int> arr)
+void Permutation(int n, vector<int> arr)
 {
     if(n==1)
     {
@@ -41,6 +41,6 @@ int main()
     {
         cin>>arr[i];
     }
-    Permute(n,arr);
+    Permutation(n,arr);
    return 0;
 }
