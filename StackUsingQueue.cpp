@@ -4,25 +4,34 @@ class Stack
 {
     int N;
     queue<int> q1;
-    queue<int> q2;
     public:
     Stack()
     {
         N=0;
     } 
     //making push operation costly
+    // void Push(int val)
+    // {
+    //     q2.push(val);
+    //     N++;
+    //     while(!q1.empty())
+    //     {
+    //         q2.push(q1.front());
+    //         q1.pop();
+    //     }
+    //     queue<int>temp=q1;
+    //     q1=q2;
+    //     q2=temp;
+    // }
     void Push(int val)
     {
-        q2.push(val);
+        q1.push(val);
         N++;
-        while(!q1.empty())
+        for(int i=0;i<N-1;i++)
         {
-            q2.push(q1.front());
+            q1.push(q1.front());
             q1.pop();
         }
-        queue<int>temp=q1;
-        q1=q2;
-        q2=temp;
     }
     void Pop()
     {
