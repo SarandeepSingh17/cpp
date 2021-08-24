@@ -2,21 +2,18 @@
 using namespace std;
 int findmaxconsecutiveOnes(vector<int> arr,int k)
 {
-    int mx=0,count1=0,count0=0;
-    for(int i=0;i<arr.size();i++)
+    int mx=0,start=0,count0=0;
+    for(int end=0;end<arr.size();end++)
     {
-        if(arr[i]==1)
-            count1++;
-        else if(count0<k)
-        {
+        if(arr[end]==0)
             count0++;
-        }
-        else
+        while(count0>k)
         {
-            count0=0;
-            count1=1;
+            if(arr[start]==0)
+                count0--;
+            start++;
         }
-        mx=max(mx,count1+count0);
+        mx=max(mx,end-start+1);
     }
     return mx;
 }
@@ -29,7 +26,9 @@ int main()
     vector<int> arr;
     for(int i=0;i<n;i++)
     {
-        cin>>arr[i];
+        int x;
+        cin>>x;
+        arr.push_back(x);
     }
     cout<<findmaxconsecutiveOnes(arr,k)<<endl;
     return 0;
